@@ -10,6 +10,10 @@ import UIKit
 
 class DataViewController: UIViewController {
 
+    @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var enterNameTextField: UITextField!
+    @IBOutlet weak var enterMessageTextField: UITextField!
+
     @IBOutlet weak var dataLabel: UILabel!
     var dataObject: AnyObject?
 

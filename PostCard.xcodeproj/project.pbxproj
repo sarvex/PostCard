@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B22DCFEF1AD94BF1007D7B43 /* aurelia-gliwski-5a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B22DCFEE1AD94BF1007D7B43 /* aurelia-gliwski-5a.jpg */; };
+		B22DCFF11AD94CE6007D7B43 /* nadia-forde-1a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B22DCFF01AD94CE6007D7B43 /* nadia-forde-1a.jpg */; };
+		B22DCFF31AD95036007D7B43 /* hethielly-beck-0a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B22DCFF21AD95036007D7B43 /* hethielly-beck-0a.jpg */; };
+		B22DCFF51AD95044007D7B43 /* nikki-bella-1a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B22DCFF41AD95044007D7B43 /* nikki-bella-1a.jpg */; };
 		B2C8C89E1AD9046F00C1A817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8C89D1AD9046F00C1A817 /* AppDelegate.swift */; };
 		B2C8C8A01AD9046F00C1A817 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8C89F1AD9046F00C1A817 /* RootViewController.swift */; };
 		B2C8C8A21AD9046F00C1A817 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8C8A11AD9046F00C1A817 /* DataViewController.swift */; };
@@ -28,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B22DCFEE1AD94BF1007D7B43 /* aurelia-gliwski-5a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "aurelia-gliwski-5a.jpg"; sourceTree = "<group>"; };
+		B22DCFF01AD94CE6007D7B43 /* nadia-forde-1a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nadia-forde-1a.jpg"; sourceTree = "<group>"; };
+		B22DCFF21AD95036007D7B43 /* hethielly-beck-0a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hethielly-beck-0a.jpg"; sourceTree = "<group>"; };
+		B22DCFF41AD95044007D7B43 /* nikki-bella-1a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nikki-bella-1a.jpg"; sourceTree = "<group>"; };
 		B2C8C8981AD9046F00C1A817 /* PostCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C8C89C1AD9046F00C1A817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2C8C89D1AD9046F00C1A817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +104,10 @@
 		B2C8C89B1AD9046F00C1A817 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B22DCFF41AD95044007D7B43 /* nikki-bella-1a.jpg */,
+				B22DCFF21AD95036007D7B43 /* hethielly-beck-0a.jpg */,
+				B22DCFF01AD94CE6007D7B43 /* nadia-forde-1a.jpg */,
+				B22DCFEE1AD94BF1007D7B43 /* aurelia-gliwski-5a.jpg */,
 				B2C8C89C1AD9046F00C1A817 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -200,8 +212,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2C8C8A71AD9046F00C1A817 /* Main.storyboard in Resources */,
+				B22DCFF11AD94CE6007D7B43 /* nadia-forde-1a.jpg in Resources */,
+				B22DCFF31AD95036007D7B43 /* hethielly-beck-0a.jpg in Resources */,
 				B2C8C8AC1AD9046F00C1A817 /* LaunchScreen.xib in Resources */,
+				B22DCFEF1AD94BF1007D7B43 /* aurelia-gliwski-5a.jpg in Resources */,
 				B2C8C8A91AD9046F00C1A817 /* Images.xcassets in Resources */,
+				B22DCFF51AD95044007D7B43 /* nikki-bella-1a.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +442,7 @@
 				B2C8C8BD1AD9046F00C1A817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2C8C8BE1AD9046F00C1A817 /* Build configuration list for PBXNativeTarget "PostCardTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +451,7 @@
 				B2C8C8C01AD9046F00C1A817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
